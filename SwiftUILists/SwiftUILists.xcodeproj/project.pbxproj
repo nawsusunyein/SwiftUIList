@@ -24,6 +24,7 @@
 		23E5C37E2420C78F00253A50 /* MoveRowsInListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C37D2420C78F00253A50 /* MoveRowsInListView.swift */; };
 		23E5C3802420CEC700253A50 /* SectionOnListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C37F2420CEC600253A50 /* SectionOnListView.swift */; };
 		23E5C3822420D10B00253A50 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3812420D10B00253A50 /* TaskRow.swift */; };
+		23E5C3842420D3BC00253A50 /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3832420D3BC00253A50 /* GroupedListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		23E5C37D2420C78F00253A50 /* MoveRowsInListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveRowsInListView.swift; sourceTree = "<group>"; };
 		23E5C37F2420CEC600253A50 /* SectionOnListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionOnListView.swift; sourceTree = "<group>"; };
 		23E5C3812420D10B00253A50 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		23E5C3832420D3BC00253A50 /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				23E5C37D2420C78F00253A50 /* MoveRowsInListView.swift */,
 				23E5C37F2420CEC600253A50 /* SectionOnListView.swift */,
 				23E5C3812420D10B00253A50 /* TaskRow.swift */,
+				23E5C3832420D3BC00253A50 /* GroupedListView.swift */,
 			);
 			path = SwiftUILists;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				23E5C3442420B77800253A50 /* SceneDelegate.swift in Sources */,
 				23E5C3462420B77800253A50 /* ContentView.swift in Sources */,
 				23E5C37C2420C58000253A50 /* DeleteOnChatList.swift in Sources */,
+				23E5C3842420D3BC00253A50 /* GroupedListView.swift in Sources */,
 				23E5C37E2420C78F00253A50 /* MoveRowsInListView.swift in Sources */,
 				23E5C3782420C0C900253A50 /* Student.swift in Sources */,
 				23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */,

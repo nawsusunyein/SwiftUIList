@@ -18,6 +18,39 @@ struct SectionOnListView: View {
                 TaskRow(name:"Drink")
             }
             
+            Section(header:Text("Other Task").padding())
+            {
+                TaskRow(name:"Study")
+                TaskRow(name:"Writing")
+            }
+            Section(header:Text("Important Task").padding()){
+                TaskRow(name: "Eat")
+                TaskRow(name:"Sleep")
+                TaskRow(name:"Drink")
+            }
+            
+            Section(header:Text("Other Task").padding())
+            {
+                TaskRow(name:"Study")
+                TaskRow(name:"Writing")
+            }
+            Section(header:Text("Important Task").padding()){
+                TaskRow(name: "Eat")
+                TaskRow(name:"Sleep")
+                TaskRow(name:"Drink")
+            }
+            
+            Section(header:Text("Other Task").padding())
+            {
+                TaskRow(name:"Study")
+                TaskRow(name:"Writing")
+            }
+            Section(header:Text("Important Task").padding()){
+                TaskRow(name: "Eat")
+                TaskRow(name:"Sleep")
+                TaskRow(name:"Drink")
+            }
+            
             Section(header:Text("Other Task").padding(),footer: Text("End"))
             {
                 TaskRow(name:"Study")
