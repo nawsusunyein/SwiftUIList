@@ -25,6 +25,7 @@
 		23E5C3802420CEC700253A50 /* SectionOnListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C37F2420CEC600253A50 /* SectionOnListView.swift */; };
 		23E5C3822420D10B00253A50 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3812420D10B00253A50 /* TaskRow.swift */; };
 		23E5C3842420D3BC00253A50 /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3832420D3BC00253A50 /* GroupedListView.swift */; };
+		23E5C3862420D5C300253A50 /* ListRowBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3852420D5C300253A50 /* ListRowBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		23E5C37F2420CEC600253A50 /* SectionOnListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionOnListView.swift; sourceTree = "<group>"; };
 		23E5C3812420D10B00253A50 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		23E5C3832420D3BC00253A50 /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
+		23E5C3852420D5C300253A50 /* ListRowBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				23E5C37F2420CEC600253A50 /* SectionOnListView.swift */,
 				23E5C3812420D10B00253A50 /* TaskRow.swift */,
 				23E5C3832420D3BC00253A50 /* GroupedListView.swift */,
+				23E5C3852420D5C300253A50 /* ListRowBackgroundView.swift */,
 			);
 			path = SwiftUILists;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				23E5C3802420CEC700253A50 /* SectionOnListView.swift in Sources */,
 				23E5C3722420B97000253A50 /* ListOfStaticItemView.swift in Sources */,
 				23E5C3422420B77800253A50 /* AppDelegate.swift in Sources */,
+				23E5C3862420D5C300253A50 /* ListRowBackgroundView.swift in Sources */,
 				23E5C3822420D10B00253A50 /* TaskRow.swift in Sources */,
 				23E5C37A2420C11A00253A50 /* StudentRow.swift in Sources */,
 				23E5C3762420C03900253A50 /* ListOfDynamicItemView.swift in Sources */,
