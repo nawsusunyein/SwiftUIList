@@ -26,6 +26,8 @@
 		23E5C3822420D10B00253A50 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3812420D10B00253A50 /* TaskRow.swift */; };
 		23E5C3842420D3BC00253A50 /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3832420D3BC00253A50 /* GroupedListView.swift */; };
 		23E5C3862420D5C300253A50 /* ListRowBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3852420D5C300253A50 /* ListRowBackgroundView.swift */; };
+		23E5C3882420D7C800253A50 /* ImplicitStackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3872420D7C800253A50 /* ImplicitStackingView.swift */; };
+		23E5C38A2420D89000253A50 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3892420D89000253A50 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		23E5C3812420D10B00253A50 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 		23E5C3832420D3BC00253A50 /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
 		23E5C3852420D5C300253A50 /* ListRowBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowBackgroundView.swift; sourceTree = "<group>"; };
+		23E5C3872420D7C800253A50 /* ImplicitStackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStackingView.swift; sourceTree = "<group>"; };
+		23E5C3892420D89000253A50 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 				23E5C3812420D10B00253A50 /* TaskRow.swift */,
 				23E5C3832420D3BC00253A50 /* GroupedListView.swift */,
 				23E5C3852420D5C300253A50 /* ListRowBackgroundView.swift */,
+				23E5C3872420D7C800253A50 /* ImplicitStackingView.swift */,
+				23E5C3892420D89000253A50 /* Person.swift */,
 			);
 			path = SwiftUILists;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				23E5C3422420B77800253A50 /* AppDelegate.swift in Sources */,
 				23E5C3862420D5C300253A50 /* ListRowBackgroundView.swift in Sources */,
 				23E5C3822420D10B00253A50 /* TaskRow.swift in Sources */,
+				23E5C3882420D7C800253A50 /* ImplicitStackingView.swift in Sources */,
 				23E5C37A2420C11A00253A50 /* StudentRow.swift in Sources */,
 				23E5C3762420C03900253A50 /* ListOfDynamicItemView.swift in Sources */,
 				23E5C3442420B77800253A50 /* SceneDelegate.swift in Sources */,
@@ -313,6 +320,7 @@
 				23E5C3842420D3BC00253A50 /* GroupedListView.swift in Sources */,
 				23E5C37E2420C78F00253A50 /* MoveRowsInListView.swift in Sources */,
 				23E5C3782420C0C900253A50 /* Student.swift in Sources */,
+				23E5C38A2420D89000253A50 /* Person.swift in Sources */,
 				23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
