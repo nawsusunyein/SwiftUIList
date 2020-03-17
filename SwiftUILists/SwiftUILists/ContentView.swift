@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["List of Static Items","List of Dynamic Items","Delete On List","Move Rows in List"]
+    let componentsList = ["List of Static Items","List of Dynamic Items","Delete On List","Move Rows in List","Section on Lists"]
     var body: some View {
         NavigationView{
             List{
@@ -36,6 +36,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:MoveRowsInListView()){
                     Text(componentsList[3])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:SectionOnListView()){
+                    Text(componentsList[4])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
