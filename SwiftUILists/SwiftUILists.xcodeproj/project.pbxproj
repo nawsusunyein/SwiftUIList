@@ -17,6 +17,10 @@
 		23E5C3642420B77F00253A50 /* SwiftUIListsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3632420B77F00253A50 /* SwiftUIListsUITests.swift */; };
 		23E5C3722420B97000253A50 /* ListOfStaticItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3712420B97000253A50 /* ListOfStaticItemView.swift */; };
 		23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3732420BA7D00253A50 /* MenuRow.swift */; };
+		23E5C3762420C03900253A50 /* ListOfDynamicItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3752420C03900253A50 /* ListOfDynamicItemView.swift */; };
+		23E5C3782420C0C900253A50 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3772420C0C900253A50 /* Student.swift */; };
+		23E5C37A2420C11A00253A50 /* StudentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3792420C11A00253A50 /* StudentRow.swift */; };
+		23E5C37C2420C58000253A50 /* DeleteOnChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C37B2420C58000253A50 /* DeleteOnChatList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		23E5C3652420B77F00253A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E5C3712420B97000253A50 /* ListOfStaticItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStaticItemView.swift; sourceTree = "<group>"; };
 		23E5C3732420BA7D00253A50 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		23E5C3752420C03900253A50 /* ListOfDynamicItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfDynamicItemView.swift; sourceTree = "<group>"; };
+		23E5C3772420C0C900253A50 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		23E5C3792420C11A00253A50 /* StudentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRow.swift; sourceTree = "<group>"; };
+		23E5C37B2420C58000253A50 /* DeleteOnChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteOnChatList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 				23E5C3492420B77F00253A50 /* Preview Content */,
 				23E5C3712420B97000253A50 /* ListOfStaticItemView.swift */,
 				23E5C3732420BA7D00253A50 /* MenuRow.swift */,
+				23E5C3752420C03900253A50 /* ListOfDynamicItemView.swift */,
+				23E5C3772420C0C900253A50 /* Student.swift */,
+				23E5C3792420C11A00253A50 /* StudentRow.swift */,
+				23E5C37B2420C58000253A50 /* DeleteOnChatList.swift */,
 			);
 			path = SwiftUILists;
 			sourceTree = "<group>";
@@ -275,8 +287,12 @@
 			files = (
 				23E5C3722420B97000253A50 /* ListOfStaticItemView.swift in Sources */,
 				23E5C3422420B77800253A50 /* AppDelegate.swift in Sources */,
+				23E5C37A2420C11A00253A50 /* StudentRow.swift in Sources */,
+				23E5C3762420C03900253A50 /* ListOfDynamicItemView.swift in Sources */,
 				23E5C3442420B77800253A50 /* SceneDelegate.swift in Sources */,
 				23E5C3462420B77800253A50 /* ContentView.swift in Sources */,
+				23E5C37C2420C58000253A50 /* DeleteOnChatList.swift in Sources */,
+				23E5C3782420C0C900253A50 /* Student.swift in Sources */,
 				23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

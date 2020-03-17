@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["List of Static Items"]
+    let componentsList = ["List of Static Items","List of Dynamic Items","Delete On List"]
     var body: some View {
         NavigationView{
             List{
@@ -20,9 +20,23 @@ struct ContentView: View {
                         .foregroundColor(Color.white)
                         .cornerRadius(10)
                 }
+                NavigationLink(destination:ListOfDynamicItemView()){
+                    Text(componentsList[1])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:DeleteOnChatList()){
+                    Text(componentsList[2])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
             }
         }
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
