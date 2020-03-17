@@ -21,6 +21,7 @@
 		23E5C3782420C0C900253A50 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3772420C0C900253A50 /* Student.swift */; };
 		23E5C37A2420C11A00253A50 /* StudentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3792420C11A00253A50 /* StudentRow.swift */; };
 		23E5C37C2420C58000253A50 /* DeleteOnChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C37B2420C58000253A50 /* DeleteOnChatList.swift */; };
+		23E5C37E2420C78F00253A50 /* MoveRowsInListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C37D2420C78F00253A50 /* MoveRowsInListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		23E5C3772420C0C900253A50 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		23E5C3792420C11A00253A50 /* StudentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRow.swift; sourceTree = "<group>"; };
 		23E5C37B2420C58000253A50 /* DeleteOnChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteOnChatList.swift; sourceTree = "<group>"; };
+		23E5C37D2420C78F00253A50 /* MoveRowsInListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveRowsInListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				23E5C3772420C0C900253A50 /* Student.swift */,
 				23E5C3792420C11A00253A50 /* StudentRow.swift */,
 				23E5C37B2420C58000253A50 /* DeleteOnChatList.swift */,
+				23E5C37D2420C78F00253A50 /* MoveRowsInListView.swift */,
 			);
 			path = SwiftUILists;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				23E5C3442420B77800253A50 /* SceneDelegate.swift in Sources */,
 				23E5C3462420B77800253A50 /* ContentView.swift in Sources */,
 				23E5C37C2420C58000253A50 /* DeleteOnChatList.swift in Sources */,
+				23E5C37E2420C78F00253A50 /* MoveRowsInListView.swift in Sources */,
 				23E5C3782420C0C900253A50 /* Student.swift in Sources */,
 				23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */,
 			);

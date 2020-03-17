@@ -15,7 +15,7 @@ struct DeleteOnChatList: View {
             ForEach(users,id:\.self){user in
                 Text(user)
             }.onDelete(perform:delete)
-        }
+        }.navigationBarItems(trailing: EditButton())
     }
     
     func delete(at offset:IndexSet){
