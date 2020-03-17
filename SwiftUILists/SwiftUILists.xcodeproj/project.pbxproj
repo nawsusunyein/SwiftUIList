@@ -15,6 +15,8 @@
 		23E5C34E2420B77F00253A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E5C34C2420B77F00253A50 /* LaunchScreen.storyboard */; };
 		23E5C3592420B77F00253A50 /* SwiftUIListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3582420B77F00253A50 /* SwiftUIListsTests.swift */; };
 		23E5C3642420B77F00253A50 /* SwiftUIListsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3632420B77F00253A50 /* SwiftUIListsUITests.swift */; };
+		23E5C3722420B97000253A50 /* ListOfStaticItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3712420B97000253A50 /* ListOfStaticItemView.swift */; };
+		23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C3732420BA7D00253A50 /* MenuRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		23E5C35F2420B77F00253A50 /* SwiftUIListsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIListsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E5C3632420B77F00253A50 /* SwiftUIListsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListsUITests.swift; sourceTree = "<group>"; };
 		23E5C3652420B77F00253A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E5C3712420B97000253A50 /* ListOfStaticItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStaticItemView.swift; sourceTree = "<group>"; };
+		23E5C3732420BA7D00253A50 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				23E5C34C2420B77F00253A50 /* LaunchScreen.storyboard */,
 				23E5C34F2420B77F00253A50 /* Info.plist */,
 				23E5C3492420B77F00253A50 /* Preview Content */,
+				23E5C3712420B97000253A50 /* ListOfStaticItemView.swift */,
+				23E5C3732420BA7D00253A50 /* MenuRow.swift */,
 			);
 			path = SwiftUILists;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E5C3722420B97000253A50 /* ListOfStaticItemView.swift in Sources */,
 				23E5C3422420B77800253A50 /* AppDelegate.swift in Sources */,
 				23E5C3442420B77800253A50 /* SceneDelegate.swift in Sources */,
 				23E5C3462420B77800253A50 /* ContentView.swift in Sources */,
+				23E5C3742420BA7D00253A50 /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    let componentsList = ["List of Static Items"]
     var body: some View {
-        Text("Hello World")
+        NavigationView{
+            List{
+                NavigationLink(destination:ListOfStaticItemView()){
+                    Text(componentsList[0])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+            }
+        }
     }
 }
 
